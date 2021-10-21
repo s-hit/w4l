@@ -6,7 +6,7 @@
         <el-main>
             <el-row :gutter="20" class="index">
                 <el-col :span="24">
-                    <a href="/roll">
+                    <a href="index.html?mode=roll">
                         <el-button type="primary" round class="index">
                             <el-icon><question-filled /></el-icon> 这顿吃啥
                         </el-button>
@@ -15,7 +15,7 @@
             </el-row>
             <el-row :gutter="20" class="index">
                 <el-col :span="12">
-                    <a href="/menu">
+                    <a href="index.html?mode=menu">
                         <el-button round class="index">
                             <el-icon><list /></el-icon> 查看菜单
                         </el-button>

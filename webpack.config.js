@@ -10,7 +10,8 @@ module.exports = {
   plugins: [
     new htmlWebpackPlugin({
         filename: 'index.html',
-        title: 'What\'s for Lunch?'
+        title: 'What\'s for Lunch?',
+        publicPath: './'
     })
   ]
 };

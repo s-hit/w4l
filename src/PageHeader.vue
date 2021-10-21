@@ -8,7 +8,7 @@
         props: ['content'],
         methods: {
             goBack () {
-                window.location.pathname = '/';
+                window.location = '/';
             }
         }
     }
