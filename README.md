@@ -1,24 +1,11 @@
 # w4l
 
-## Project setup
 ```
-npm install
+cd dist
+git init
+git checkout -b gh-pages
+git add .
+git commit -m "Website Update"
+git remote add origin https://github.com/s-hit/w4l.git
+git push --set-upstream origin gh-pages --force
 ```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
