@@ -1,10 +1,12 @@
 import { createApp, h } from 'vue';
+import App from './App.vue';
 import Menu from './Menu.vue';
 import Roll from './Roll.vue';
 import NotFound from './NotFound.vue'
 
 import ElementPlus from 'element-plus';
 import 'element-plus/dist/index.css';
+import './main.css';
 
 import AV from 'leancloud-storage';
 AV.init({
@@ -13,6 +15,7 @@ AV.init({
 });
 
 const routes = {
+    '/': App,
     '/menu': Menu,
     '/roll': Roll,
 }
